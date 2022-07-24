@@ -110,9 +110,9 @@ button {
     }
 
     .block {
-        flex: 1 0 50px;
+        flex: 1 0 30px;
 
-        height: 50px;
+        height: 30px;
     }
 
 
