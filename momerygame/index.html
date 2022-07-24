@@ -6,23 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Momery Game</title>
-    <link href="style.css" rel="stylesheet">
     <link rel="icon" href="photos/logo.jpg">
+    <link href="style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <div class="control">
+
 
         <button onclick="start()"><span>Start</span></button>
-        <div class="score">Score: <span id="score"> </span>/16</div>
-
+        <button class="score">Score: <span id="score"> </span>/16</button>
 
         <div class="container">
+            
             <div class="block" data="cat">
                 <div class="front"></div>
-                <div class="back"><img src="photos/cat.jpg"></div>
+                <div class="back"><img src="photos/cat.jpg" alt=""></div>
             </div>
             <div class="block" data="memo">
                 <div class="front"></div>
@@ -87,7 +87,6 @@
         </div>
     </div>
 
-    </div>
 
 <audio src="photos\game-over-2878.wav" id="fail" preload="auto"></audio>
 <audio src="photos/game-success-notification-270.wav" id="win" preload="auto"></audio>
